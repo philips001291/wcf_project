@@ -1,0 +1,7 @@
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorClient.exe.config
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorClient.exe
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorClient.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.csproj.AssemblyReference.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.exe
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.pdb

@@ -1,0 +1,10 @@
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorService.dll.config
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorService.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorService.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorData.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorData.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\obj\Debug\SensorService.csproj.AssemblyReference.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\obj\Debug\SensorService.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\obj\Debug\SensorSe.496F93E0.Up2Date
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\obj\Debug\SensorService.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\obj\Debug\SensorService.pdb

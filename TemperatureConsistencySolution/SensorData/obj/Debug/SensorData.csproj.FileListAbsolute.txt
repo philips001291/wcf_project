@@ -1,0 +1,6 @@
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\SensorData.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\SensorData.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.csproj.AssemblyReference.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.pdb
