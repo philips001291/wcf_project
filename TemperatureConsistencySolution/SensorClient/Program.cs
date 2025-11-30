@@ -1,4 +1,5 @@
 ﻿using System;
+using SensorData.Data;
 using SensorData.Models;
 
 namespace SensorClient
@@ -11,15 +12,19 @@ namespace SensorClient
 
             try
             {
-                // Ensure SensorDbContext implements IDisposable
                 using (var context = new SensorDbContext())
                 {
+                    // Ensure Sensors property is initialized in SensorDbContext
+                    if (context.Sensors == null)
+                    {
+                        throw new InvalidOperationException("Sensors DbSet is not initialized. Check your SensorDbContext implementation.");
+                    }
+
                     var sensor = new Sensor
                     {
                         Name = "TestSensor1"
                     };
 
-                    // Use the Sensors property directly
                     context.Sensors.Add(sensor);
                     context.SaveChanges();
                 }

@@ -1,10 +1,17 @@
-﻿using SensorData.Models;
-using System.Data.Entity;
-using System;
+﻿using System.Data.Entity;
+using SensorData.Models;
 
-public class SensorDbContext : IDisposable
+namespace SensorData.Data
 {
-    public DbSet<Sensor> Sensors { get; set; }
-    public void SaveChanges() { /* implementation */ }
-    public void Dispose() { /* implementation */ }
+    public class SensorDbContext : DbContext
+    {
+        // Konstruktor koji koristi connection string iz App.config-a
+        public SensorDbContext()
+            : base("name=SensorDbContext")
+        {
+        }
+
+        public DbSet<Sensor> Sensors { get; set; }
+        public DbSet<TemperatureReading> TemperatureReadings { get; set; }
+    }
 }
