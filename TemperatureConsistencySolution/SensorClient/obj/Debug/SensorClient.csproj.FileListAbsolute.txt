@@ -5,3 +5,11 @@ C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.csproj.CoreCompileInputs.cache
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.exe
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorClient.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorData.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorData.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorData.dll.config
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.xml
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorCl.BBB872F7.Up2Date

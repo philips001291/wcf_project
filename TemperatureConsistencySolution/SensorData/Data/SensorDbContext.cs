@@ -1,7 +1,10 @@
-﻿namespace SensorData.Data
+﻿using SensorData.Models;
+using System.Data.Entity;
+using System;
+
+public class SensorDbContext : IDisposable
 {
-    // EF Core ćemo dodati sutra, za sada je prazno telo klase.
-    public class SensorDbContext
-    {
-    }
+    public DbSet<Sensor> Sensors { get; set; }
+    public void SaveChanges() { /* implementation */ }
+    public void Dispose() { /* implementation */ }
 }

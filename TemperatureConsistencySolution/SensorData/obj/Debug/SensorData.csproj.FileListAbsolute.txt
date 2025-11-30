@@ -4,3 +4,9 @@ C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\ob
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.csproj.CoreCompileInputs.cache
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.dll
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\SensorData.dll.config
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\EntityFramework.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\EntityFramework.xml
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorData\obj\Debug\SensorData.csproj.Up2Date

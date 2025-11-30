@@ -3,56 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorclient\\utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorclient\\simulation\\sensorsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\simulation\\sensorsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorservice\\services\\sensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensorservice\\services\\sensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|solutionrelative:sensorservice\\services\\sensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorservice\\contracts\\isensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|solutionrelative:sensorservice\\contracts\\isensorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensordata\\data\\sensordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensordata\\data\\sensordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\data\\sensordbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensordata\\models\\temperaturereading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\models\\temperaturereading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensordata\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensordata\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensordata\\models\\temperaturereading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\models\\temperaturereading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensordata\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}|SensorData\\SensorData.csproj|solutionrelative:sensordata\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SensorClient||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensorclient\\simulation\\sensorsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\simulation\\sensorsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SensorService||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensorclient\\utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\utils\\randomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|solutionrelative:sensorservice\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\sensorclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|solutionrelative:sensorclient\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}|SensorClient\\SensorClient.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorclient\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}|SensorService\\SensorService.csproj|c:\\users\\filip\\desktop\\dus projekat\\temperatureconsistencysolution\\sensorservice\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\IService1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SensorService\\IService1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +50,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 125,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "RandomGenerator.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Utils\\RandomGenerator.cs",
               "RelativeDocumentMoniker": "SensorClient\\Utils\\RandomGenerator.cs",
               "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Utils\\RandomGenerator.cs",
               "RelativeToolTip": "SensorClient\\Utils\\RandomGenerator.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:25:38.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T18:25:38.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SensorSimulator.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Simulation\\SensorSimulator.cs",
               "RelativeDocumentMoniker": "SensorClient\\Simulation\\SensorSimulator.cs",
@@ -87,12 +74,36 @@
               "RelativeToolTip": "SensorClient\\Simulation\\SensorSimulator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:24:32.101Z",
+              "WhenOpened": "2025-11-29T18:24:32.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Program.cs",
+              "RelativeDocumentMoniker": "SensorClient\\Program.cs",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Program.cs",
+              "RelativeToolTip": "SensorClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T18:05:29.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\App.config",
+              "RelativeDocumentMoniker": "SensorClient\\App.config",
+              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\App.config",
+              "RelativeToolTip": "SensorClient\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-30T13:28:30.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SensorService.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\Services\\SensorService.cs",
               "RelativeDocumentMoniker": "SensorService\\Services\\SensorService.cs",
@@ -105,33 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ISensorService.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\Contracts\\ISensorService.cs",
-              "RelativeDocumentMoniker": "SensorService\\Contracts\\ISensorService.cs",
-              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\Contracts\\ISensorService.cs",
-              "RelativeToolTip": "SensorService\\Contracts\\ISensorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:22:07.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SensorDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Data\\SensorDbContext.cs",
               "RelativeDocumentMoniker": "SensorData\\Data\\SensorDbContext.cs",
               "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Data\\SensorDbContext.cs",
               "RelativeToolTip": "SensorData\\Data\\SensorDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T18:21:02.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "TemperatureReading.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Models\\TemperatureReading.cs",
               "RelativeDocumentMoniker": "SensorData\\Models\\TemperatureReading.cs",
@@ -144,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Sensor.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Models\\Sensor.cs",
               "RelativeDocumentMoniker": "SensorData\\Models\\Sensor.cs",
@@ -157,66 +155,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Class1.cs",
               "RelativeDocumentMoniker": "SensorData\\Class1.cs",
               "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorData\\Class1.cs",
               "RelativeToolTip": "SensorData\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T18:12:43.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SensorService",
-              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\SensorService.csproj",
-              "RelativeDocumentMoniker": "SensorService\\SensorService.csproj",
-              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\SensorService.csproj",
-              "RelativeToolTip": "SensorService\\SensorService.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-29T18:08:11.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SensorClient",
-              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\SensorClient.csproj",
-              "RelativeDocumentMoniker": "SensorClient\\SensorClient.csproj",
-              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\SensorClient.csproj",
-              "RelativeToolTip": "SensorClient\\SensorClient.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-29T18:07:47.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Program.cs",
-              "RelativeDocumentMoniker": "SensorClient\\Program.cs",
-              "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorClient\\Program.cs",
-              "RelativeToolTip": "SensorClient\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:05:29.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "IService1.cs",
               "DocumentMoniker": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\IService1.cs",
               "RelativeDocumentMoniker": "SensorService\\IService1.cs",
               "ToolTip": "C:\\Users\\Filip\\Desktop\\dus projekat\\TemperatureConsistencySolution\\SensorService\\IService1.cs",
               "RelativeToolTip": "SensorService\\IService1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T18:04:46.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T18:04:46.996Z"
             }
           ]
         }
