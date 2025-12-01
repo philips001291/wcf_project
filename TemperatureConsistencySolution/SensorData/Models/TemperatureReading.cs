@@ -4,9 +4,10 @@ namespace SensorData.Models
 {
     public class TemperatureReading
     {
-        public int Id { get; set; }             // Primarni ključ merenja
-        public int SensorId { get; set; }       // Veza ka senzoru
-        public double Value { get; set; }       // Izmerena temperatura
-        public DateTime Timestamp { get; set; } // Vreme merenja
+        public int Id { get; set; }
+        public int SensorId { get; set; }
+        public double Temperature { get; set; }
+        public DateTime Timestamp { get; set; }
     }
+
 }

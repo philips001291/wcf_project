@@ -1,17 +1,26 @@
 ﻿using System;
-using System.Threading.Tasks;
+using SensorData.Data;
+using SensorData.Models;
 using SensorService.Contracts;
 
 namespace SensorService.Services
 {
-    // WCF dekoracije i EF logiku ćemo dodati kasnije.
     public class SensorService : ISensorService
     {
-        public Task SubmitReadingAsync(int sensorId, double value, DateTime timestamp)
+        public void SubmitReading(int sensorId, double value, DateTime timestamp)
         {
-            // Privremeno: ne radimo ništa, samo bacamo NotImplementedException.
-            // Sutra ovde povezujemo EF i upis u bazu.
-            throw new NotImplementedException();
+            using (var context = new SensorDbContext())
+            {
+                var reading = new TemperatureReading
+                {
+                    SensorId = sensorId,
+                    Temperature = value,
+                    Timestamp = timestamp
+                };
+
+                context.TemperatureReadings.Add(reading);
+                context.SaveChanges();
+            }
         }
     }
 }

@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService", "SensorService\SensorService.csproj", "{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorClient", "SensorClient\SensorClient.csproj", "{7FC1FA29-7656-4A49-8E86-FB0101AC5CBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE} = {37C54380-A9B6-46AB-B7D9-1B9B08B8E5EE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorData", "SensorData\SensorData.csproj", "{0BFA5332-EDC0-41D9-869E-D0D35FDBD51E}"
 EndProject

@@ -12,3 +12,4 @@ C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorData.dll.config
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\EntityFramework.xml
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorService\bin\Debug\SensorService.dll.config

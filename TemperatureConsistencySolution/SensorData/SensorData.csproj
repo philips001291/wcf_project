@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Data\SensorDbContext.cs" />
     <Compile Include="Models\Sensor.cs" />
     <Compile Include="Models\TemperatureReading.cs" />
