@@ -13,3 +13,6 @@ C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.xml
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\obj\Debug\SensorCl.BBB872F7.Up2Date
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorService.dll
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorService.pdb
+C:\Users\Filip\Desktop\dus projekat\TemperatureConsistencySolution\SensorClient\bin\Debug\SensorService.dll.config

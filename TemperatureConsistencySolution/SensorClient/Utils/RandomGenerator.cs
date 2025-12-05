@@ -2,7 +2,6 @@
 
 namespace SensorClient.Utils
 {
-    // Pomoćna klasa za generisanje random vrednosti (temperatura, intervali...)
     public static class RandomGenerator
     {
         private static readonly Random _random = new Random();

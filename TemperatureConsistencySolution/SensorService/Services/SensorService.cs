@@ -9,6 +9,7 @@ namespace SensorService.Services
     {
         public void SubmitReading(int sensorId, double value, DateTime timestamp)
         {
+            // Stores a single temperature reading sent from the client
             using (var context = new SensorDbContext())
             {
                 var reading = new TemperatureReading

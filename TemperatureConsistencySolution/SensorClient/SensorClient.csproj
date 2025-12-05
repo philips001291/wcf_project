@@ -77,6 +77,10 @@
       <Project>{0bfa5332-edc0-41d9-869e-d0d35fdbd51e}</Project>
       <Name>SensorData</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SensorService\SensorService.csproj">
+      <Project>{37c54380-a9b6-46ab-b7d9-1b9b08b8e5ee}</Project>
+      <Name>SensorService</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

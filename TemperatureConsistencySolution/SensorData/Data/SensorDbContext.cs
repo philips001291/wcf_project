@@ -5,7 +5,7 @@ namespace SensorData.Data
 {
     public class SensorDbContext : DbContext
     {
-        // Konstruktor koji koristi connection string iz App.config-a
+        // Uses the connection string defined as "SensorDbContext" in App.config
         public SensorDbContext()
             : base("name=SensorDbContext")
         {

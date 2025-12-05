@@ -9,5 +9,4 @@ namespace SensorData.Models
         public double Temperature { get; set; }
         public DateTime Timestamp { get; set; }
     }
-
 }

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading;
+using System.ServiceModel;
 using SensorClient.Utils;
-using SensorData.Data;
-using SensorData.Models;
+using SensorClient.SensorServiceReference;
 
 namespace SensorClient.Simulation
 {
@@ -13,14 +13,23 @@ namespace SensorClient.Simulation
         private readonly Thread _thread;
         private bool _running = true;
 
+        private readonly ISensorService _serviceProxy;
+
         public SensorSimulator(int sensorId, string sensorName)
         {
             _sensorId = sensorId;
             _sensorName = sensorName;
+
             _thread = new Thread(Run)
             {
                 IsBackground = true
             };
+
+            var binding = new BasicHttpBinding();
+            var endpoint = new EndpointAddress("http://localhost:8733/SensorService/");
+            var factory = new ChannelFactory<ISensorService>(binding, endpoint);
+
+            _serviceProxy = factory.CreateChannel();
         }
 
         public void Start()
@@ -39,32 +48,20 @@ namespace SensorClient.Simulation
             {
                 try
                 {
-                    // Generišemo random temperaturu (recimo 18–30 stepeni)
                     double temperature = RandomGenerator.Next(18, 31);
+                    var timestamp = DateTime.Now;
 
-                    using (var context = new SensorDbContext())
-                    {
-                        var reading = new TemperatureReading
-                        {
-                            SensorId = _sensorId,
-                            Temperature = temperature,
-                            Timestamp = DateTime.Now
-                        };
+                    // Send measurement to the WCF service
+                    _serviceProxy.SubmitReading(_sensorId, temperature, timestamp);
 
-                        context.TemperatureReadings.Add(reading);
-                        context.SaveChanges();
-                    }
+                    Console.WriteLine($"[{timestamp:HH:mm:ss}] {_sensorName} -> {temperature} °C");
 
-                    Console.WriteLine($"[{DateTime.Now:HH:mm:ss}] {_sensorName} -> {temperature} °C");
-
-                    // Random pauza 1–10 sekundi
                     int delayMs = RandomGenerator.Next(1000, 10001);
                     Thread.Sleep(delayMs);
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Greška u senzoru {_sensorName}: {ex.Message}");
-                    // mala pauza da se ne vrti u krug sa greškom
+                    Console.WriteLine($"Error in {_sensorName}: {ex.Message}");
                     Thread.Sleep(2000);
                 }
             }
