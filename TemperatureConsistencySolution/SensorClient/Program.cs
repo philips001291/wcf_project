@@ -10,37 +10,35 @@ namespace SensorClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pokušavam da kreiram bazu i obezbedim senzore...");
+            Console.WriteLine("Attempting to initialize the database and ensure sensors exist...");
 
             try
             {
-                EnsureSensorsExist();   // 1) Ubacuje 10 senzora ako ih nema
+                EnsureSensorsExist();   // Inserts 10 sensors if the table is empty
 
-                Console.WriteLine("Senzori su spremni. Pokrećem simulaciju merenja...");
+                Console.WriteLine("Sensors are ready. Starting measurement simulation...");
 
-                StartSimulation();      // 2) Pokreće simulaciju za svih 10 senzora
+                StartSimulation();      // Starts a simulator thread for each sensor
 
-                Console.WriteLine("Simulacija je pokrenuta. Pritisni Enter za izlaz.");
+                Console.WriteLine("Simulation is running. Press Enter to exit.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Greška: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
             }
 
             Console.ReadLine();
         }
 
-        /// <summary>
-        /// Proverava da li postoje senzori u bazi.
-        /// Ako ne postoje, kreira 10 senzora: Sensor1 ... Sensor10.
-        /// </summary>
+        /// Checks whether sensors exist in the database.
+        /// If not, creates 10 default sensors: Sensor1 ... Sensor10.
         private static void EnsureSensorsExist()
         {
             using (var context = new SensorDbContext())
             {
                 if (context.Sensors.Any())
                 {
-                    Console.WriteLine("Senzori već postoje u bazi.");
+                    Console.WriteLine("Sensors already exist in the database.");
                     return;
                 }
 
@@ -55,14 +53,13 @@ namespace SensorClient
                 }
 
                 context.SaveChanges();
-                Console.WriteLine("Upisano 10 senzora u bazu.");
+                Console.WriteLine("Inserted 10 sensors into the database.");
             }
         }
 
-        /// <summary>
-        /// Za svakog senzora iz baze kreira i startuje njegov SensorSimulator.
-        /// Svaki simulator u pozadini upisuje TemperatureReading vrednosti.
-        /// </summary>
+        /// Reads all sensors from the database and creates a SensorSimulator instance for each one.
+        /// Each simulator runs on a background thread and sends temperature readings to the WCF service.
+
         private static void StartSimulation()
         {
             using (var context = new SensorDbContext())
@@ -77,7 +74,7 @@ namespace SensorClient
                     simulator.Start();
                 }
 
-                Console.WriteLine($"Pokrenuto je {sensors.Count} senzora.");
+                Console.WriteLine($"Started {sensors.Count} sensor simulators.");
             }
         }
     }
